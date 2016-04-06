@@ -1,0 +1,95 @@
+*{
+	box-sizing: border-box;
+}
+/*begin clearfix*/
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+} 
+.clearfix:after {
+    clear: both;
+}
+.clearfix {
+    zoom: 1; /* For IE 6/7 (trigger hasLayout) */
+}
+/*end cleafix*/
+/*reset a*/
+a{
+	text-decoration: none;
+}
+a:hover{
+	color: red;
+}
+.site-wrap{
+	width: 1000px;
+	margin: 0 auto;
+}
+
+#site-header .cover {
+	width: 100%;
+	height: auto;
+	margin-bottom: 10px;
+	padding: 0 10px;
+}
+#site-header{
+	margin-bottom: 30px;
+}
+#site-header .menu {
+	text-align: center;
+	font-size: 18px;
+}
+#site-header .menu a{
+	margin: 0 10px;
+}
+#site-header .menu a.active, #site-header .menu a:hover{
+	font-weight: bold;
+	color: red;
+}
+.main-content .row{
+	margin-bottom: 15px;
+}
+.main-content .album{
+	float: left;
+	width: 33.3333%;
+	padding: 0 10px;
+}
+.main-content .green a{
+	color: green;
+}
+.main-content .orange a{
+	color: orange;
+}
+.main-content .purple a{
+	color: purple;
+}
+.main-content .green a:hover{
+	color: red;
+}
+.main-content .orange a:hover{
+	color: red;
+}
+.main-content .purple a:hover{
+	color: red;
+}
+.main-content .avatar{
+	margin-bottom: 5px;
+	max-height: 175px;
+	overflow: hidden;
+}
+.main-content .avatar img{
+	width: 100%;
+	height: auto;
+}
+.main-content .avatar:hover{
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	-ms-border-radius: 30px;
+	-o-border-radius: 30px;
+	border-radius: 30px;
+}
+.main-content .album-name{
+	margin: 0;
+	text-align: center;
+}
+
